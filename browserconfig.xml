@@ -3,7 +3,7 @@
     <msapplication>
         <tile>
             <square150x150logo src="https://cdn.jsdelivr.net/gh/livechatcdn/cdn/mstile-150x150.png"/>
-            <TileColor>#da532c</TileColor>
+            <TileColor>#E9E9E9</TileColor>
         </tile>
     </msapplication>
 </browserconfig>
