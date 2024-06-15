@@ -635,6 +635,11 @@ button *, [data-action] *, a * {
     height: 80vh;
     background: var(--color-bg);
     border-radius: 15px;
+    opacity: 0;
+    transition: all cubic-bezier(.4,0,.2,1) 0.2s;
+}
+.dialog2.active {
+    opacity: 1;
 }
 
 .max-screen {
@@ -1477,6 +1482,9 @@ button .counter {
     .login .logo svg {
         width: 100px;
         height: 100px;
+    }
+    .dialog-content:has(> .dialog2) {
+         background: transparent;
     }
     .dialog2 {
         width: 100%;
