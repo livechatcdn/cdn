@@ -1244,7 +1244,10 @@ button .counter {
     color: var(--color-white-darken-secondary);
 }
 .chat-room-area .chat-room-messages {
-    min-height: 100%;
+    flex: 1;
+}
+.chat-room-area .chat-room-messages.bottom {
+    justify-content: end;
 }
 
 .chat-room-message.reverse{
