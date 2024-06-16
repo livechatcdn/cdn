@@ -1291,7 +1291,7 @@ button .counter {
 .chat-room-message .message > * { 
     position: relative;
     overflow: hidden;
-    height: 21px;
+    min-height: 21px;
 }
 .chat-room-message .message .m { 
     color: var(--color-white-primary);
